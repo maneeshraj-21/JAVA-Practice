@@ -1,0 +1,17 @@
+import java.util.*;
+class flchar_merge{
+public static void main(String[] ab){
+
+String a = "ABCDEFGHIJ";
+int i = 0;
+int j = a.length()-1;
+
+while(i<j){
+System.out.println(a.charAt(i));
+System.out.println(a.charAt(j));
+i++;
+j--;
+}
+
+}
+}
